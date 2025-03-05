@@ -1,0 +1,38 @@
+:root {
+    --blue-light: lightblue;
+    --blue-strong: blue;
+    --yellow-light: lightyellow;
+    --yellow-strong: yellow;
+    --green-light: lightgreen;
+    --green-strong: green;
+    --red-light: lightcoral;
+    --red-strong: crimson;
+}
+.card {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 12px;
+    background-color: var(--base-color, pink);
+    border-radius: 12px;
+    transition: 300ms ease;
+
+    &:hover {
+        background-color: var(--hover-color, red);
+    }
+}
+.card-1 {
+    --base-color: var(--blue-light);
+    --hover-color: var(--blue-strong);
+}
+.card-2 {
+    --base-color: var(--yellow-light);
+    --hover-color: var(--yellow-strong);
+}
+.card-3 {
+    --base-color: var(--green-light);
+    --hover-color: var(--green-strong);
+}
+.card-4 {
+    --base-color: var(--red-light);
+    --hover-color: var(--red-strong);
+}
