@@ -124,18 +124,10 @@ nav a {
   from {
     opacity: 1;
     transform: translateY(0);
-    -webkit-transform: translateY(0);
-    -moz-transform: translateY(0);
-    -ms-transform: translateY(0);
-    -o-transform: translateY(0);
   }
   to {
     opacity: 0.5;
     transform: translateY(-35%);
-    -webkit-transform: translateY(-35%);
-    -moz-transform: translateY(-35%);
-    -ms-transform: translateY(-35%);
-    -o-transform: translateY(-35%);
 }
 }
 @keyframes move-in {

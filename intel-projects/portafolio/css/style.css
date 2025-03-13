@@ -21,12 +21,21 @@ header {
     background-size: cover;
 
     .menu {
-        margin: 40px;
-        text-align: right;
+        margin: 40px 0;
+        text-align: center;
+
+        @media (width > 800px) {
+            margin: 40px;
+            text-align: right;
+
+            a {
+                margin: 0 20px;
+            }
+        }
 
         a {
             display: inline-block;
-            margin: 0 20px;
+            margin: 0 10px;
             padding: 8px;
             color: #fff;
             text-decoration: none;
@@ -59,12 +68,14 @@ header {
             }
             .nombre {
                 margin: 10px;
-                font-size: 50px;
+                font-size: 35px;
                 line-height: 1;
+                @media (width > 500px) { font-size: 50px; }
             }
             .profesion {
-                font-size: 25px;
+                font-size: 18px;
                 line-height: 1;
+                @media (width > 500px) { font-size: 25px; }
             }
         }
     }
@@ -127,8 +138,9 @@ header {
         justify-content: space-between;
 
         .trabajo {
-            width: 23%;
+            width: 46%;
             margin-bottom: 40px;
+            @media (width > 800px) { width: 23%;}
 
             .thumb {
                 width: 100%;
@@ -222,6 +234,13 @@ footer .redes-sociales {
     .contenedor {
         display: flex;
         justify-content: center;
+        flex-wrap: wrap;
+        padding: 20px 0;
+
+        @media (width > 500px) {
+            padding: 0;
+            flex-wrap: initial;
+        }
     }
     a {
         display: block;
