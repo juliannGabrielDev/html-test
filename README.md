@@ -17,7 +17,6 @@ Open the corresponding HTML file in your browser to view each example. All proje
 
 ## Screenshots
 
-
 ### colors
 ![Screenshot colors](screenshots/colors.png)
 
